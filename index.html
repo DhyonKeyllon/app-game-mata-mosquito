@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilo.css">
+    <script>
+        function iniciarJogo() {
+            var nivel = document.getElementById('nivel').value
+            if (nivel === '') {
+                alert('Selecione um nível para iniciar o jogo')
+                return false
+            }
+
+            // recuperar o href do window.location e extrair o parametro (nivel)
+            // este tipo de ação não é convencional, está sendo aplicado apenas por prática
+            window.location.href = 'app.html?' + nivel
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img src="imagens/game.png" alt="">
+                </div>             
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="mb-2">
+                        <select class="form-control" name="" id="nivel">
+                            <option value="">
+                                -- Selecionar o Nivel -- 
+                            </option>
+                            <option value="normal">
+                                Normal
+                            </option>
+                            <option value="dificil">
+                                Difícil
+                            </option>
+                            <option value="chucknorris">
+                                Chuck Norris
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-lg" onclick="iniciarJogo()" >Iniciar Jogo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
