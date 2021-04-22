@@ -1,5 +1,5 @@
 # app-game-mata-mosquito
- Aplicação de jogo com objetivo de matar todos os moquitos que spawnar na tela, até que o tempo da partida acabe!
+ Aplicação de jogo com objetivo de matar todos os moquitos que 'spawnar' na tela, até que o tempo da partida acabe!
 
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
@@ -24,7 +24,6 @@
 
 Esses foram os recursos usados para o desenvolvimento:
 
-- **HTML5** 
 - **Bootstrap 4**
 - **JavaScript**
 
