@@ -18,7 +18,7 @@
 ## Sobre o projeto
 ### Tela inicial
 
-<img src="/imagens/tela-inicial.PNG" ></img>
+<img src="/imagens/tela-inicial.PNG" width="700"></img>
 
 ### Recursos
 
