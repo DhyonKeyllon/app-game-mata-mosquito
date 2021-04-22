@@ -26,6 +26,7 @@ Esses foram os recursos usados para o desenvolvimento:
 
 - **HTML5**
 - **Bootstrap 4**
+- **CSS3**
 - **JavaScript**
 
 ### Objetivo
