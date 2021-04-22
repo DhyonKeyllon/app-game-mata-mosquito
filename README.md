@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/imagens/game.png" alt="Logo" width="70" height="40">
+    <img src="/imagens/game.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">App Game Mata Mosquito</h3>
