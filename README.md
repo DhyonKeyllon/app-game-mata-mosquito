@@ -28,7 +28,7 @@ Esses foram os recursos usados para o desenvolvimento:
 
 ### Objetivo
 
-O Jogo tem como objetivo principal matar todos os mosquitos que aparece na tela até que o tempo acabe.
+O Jogo tem como objetivo principal matar todos os mosquitos que apareçam na tela até que o tempo acabe.
 
 ## License
 
